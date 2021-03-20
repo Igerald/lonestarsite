@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="{% static 'scripts/bootstrap-4.3.1/dist/css/bootstrap.min.css' %}" crossorigin="anonymous">
+    <script src="{% static 'scripts/bootstrap-4.3.1/dist/js/bootstrap.min.js' %}" crossorigin="anonymous"></script>
+    <link href="{% static 'scripts/fontawesome-free-5.15.2-web/css/all.css' %}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'scripts/lsb-style-file-CSS.css' %}">
+    <script src=""></script>
+
+    <style>
+        @font-face {
+            font-family: "akrobat";
+            src: url("{% static 'fonts/akrobat/Akrobat-Regular.otf' %}");
+        }
+        
+        a {
+            font-family: akrobat;
+        }
+        
+        .header {
+            background-image: url("{% static 'images/lsb_header2.jpg' %}");
+            background-attachment: fixed;
+            background-position: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 class='TitleText'> Lone Star Birding </h1>
+    </div>
+
+    <div class="scroller">
+        <div class="btn-group-vertical">
+            <p>Check us out @</p>
+            <a class='btn' href="https://www.youtube.com/channel/UCtPvGZQryCuQqBm3Ery3cJA"><i class="fab fa-youtube"></i> youtube</a>
+            <a class='btn' href="https://www.instagram.com/lonestarbirding/?hl=en"><i class="fab fa-instagram"></i> instagram</a>
+            <a class='btn' href="https://www.facebook.com/Lone-Star-Birding-107457911429976"><i class="fab fa-facebook"></i> facebook</a>
+            <a class='btn' href="https://twitter.com/BirdingLone"><i class="fab fa-twitter"></i> twitter</a>
+            <p>Support us @</p>
+            <a class='btn' href="#"><i class="fab fa-patreon"></i> patreon</a>
+            <a class='btn' href="#"><i class="fab fa-paypal"></i> paypal</a>
+        </div>
+    </div>
+
+    <div class="content">
+
+        {% block content %}
+        {% endblock %}
+
+    </div>
+
+</body>
+
+
+</html>
