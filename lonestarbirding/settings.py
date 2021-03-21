@@ -25,7 +25,7 @@ SECRET_KEY = '#n-s+xbtb$r#um9p+dkh7ahs#8m1vo2t+pbprt48x116_pc$cs'
 ##SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ##DEBUG = config('DEBUG')
 
