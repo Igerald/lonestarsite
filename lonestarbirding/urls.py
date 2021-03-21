@@ -22,4 +22,6 @@ urlpatterns = [
     path(r'admin/', admin.site.urls),
     path(r'', include('livestream.urls')),
     path(r'LoneStarBirding/', include('livestream.urls')),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] 
+
+#+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
