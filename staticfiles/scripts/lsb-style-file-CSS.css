@@ -26,7 +26,6 @@ body {
 }
 
 .btn-group-vertical {
-    display: inline-flex;
     text-align: center;
 }
 
@@ -64,10 +63,6 @@ body {
     min-height: 500vh;
     text-align: center;
     background-color: rgb(255, 250, 244);
-}
-
-.btn-group-vertical {
-    display: block;
 }
 
 .welcome {
