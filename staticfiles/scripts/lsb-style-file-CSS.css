@@ -34,6 +34,7 @@ body {
     margin-bottom: 0;
     font-weight: bold;
     width: 100%;
+    padding: 10px 24px;
 }
 
 .btn-group-vertical a {
