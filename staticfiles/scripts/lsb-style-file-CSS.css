@@ -66,6 +66,10 @@ body {
     background-color: rgb(255, 250, 244);
 }
 
+.btn-group-vertical {
+    display: block;
+}
+
 .welcome {
     width: 80%;
     margin: 2% auto;
