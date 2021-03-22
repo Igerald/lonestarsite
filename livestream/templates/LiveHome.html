@@ -74,19 +74,52 @@
                     <h1>Our Birds</h1>
                 </div>
                 <div class="card-columns birds">
-                    {% if obj != false %}
-                        {% for bird in obj %}
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="/static/images/{{ bird.image }}" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{ bird.name }}</h5>
-                                    <p class="card-text">{{ bird.description }}</p>
-                                    <a href="{{ bird.info_url }}" class="btn btn-primary">wiki info</a>
-                                </div>
-                            </div>
-                        {% endfor %}
-                    {% endif %}
+                
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/static/images/monkparakeet.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Monk Parakeet</h5>
+                        <p class="card-text">Monk Parakeets native to our area</p>
+                        <a href="https://en.wikipedia.org/wiki/Monk_parakeet" class="btn btn-primary">wiki info</a>
+                    </div>
                 </div>
+                
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/static/images/bluejay.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Blue Jay</h5>
+                        <p class="card-text">Blue Jays eat peanuts</p>
+                        <a href="https://en.wikipedia.org/wiki/Blue_jay" class="btn btn-primary">wiki info</a>
+                    </div>
+                </div>
+                
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/static/images/cardinal.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Cardinal</h5>
+                        <p class="card-text">Cardinals common to the area but rarely seen at our feeder</p>
+                        <a href="https://en.wikipedia.org/wiki/Cardinal_(bird)" class="btn btn-primary">wiki info</a>
+                    </div>
+                </div>
+                
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/static/images/housefinch.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">House Finch</h5>
+                        <p class="card-text">House Finch</p>
+                        <a href="https://en.wikipedia.org/wiki/House_finch" class="btn btn-primary">wiki info</a>
+                    </div>
+                </div>
+                
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/static/images/blackbird.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Bird</h5>
+                        <p class="card-text">Common Black Bird</p>
+                        <a href="https://en.wikipedia.org/wiki/Red-winged_blackbird" class="btn btn-primary">wiki info</a>
+                    </div>
+                </div>
+                
             </div>
 
         </div>
