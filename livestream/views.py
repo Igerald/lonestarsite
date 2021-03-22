@@ -8,6 +8,8 @@ from paypal.standard.forms import PayPalPaymentsForm
 
 def video(request):
     obj = Item.objects.all()
+    if len(obj) == 0:
+        obj = false
     return render(request, 'LiveHome.html', {'obj':obj})
 
 class PaypalFormView(FormView):
