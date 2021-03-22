@@ -34,14 +34,14 @@ body {
     margin-bottom: 0;
     font-weight: bold;
     width: 100%;
-    padding: 10px 24px;
+    padding: 10px 15px;
 }
 
 .btn-group-vertical a {
     background-color: #4CAF50;
     border: 1px solid green;
     color: white;
-    padding: 10px 24px;
+    padding: 10px 15px;
     cursor: pointer;
     width: 100%;
     display: block;
