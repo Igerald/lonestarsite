@@ -74,12 +74,16 @@
                 <h1>Our Birds</h1>
             </div>
             <div class="card-columns birds">
-
-                
-                
-                
-                
-                
+                {% for bird in obj %}
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/static/images/{{ bird.image }}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ bird.name }}</h5>
+                        <p class="card-text">{{ bird.description }}</p>
+                        <a href="{{ bird.info_url }}" class="btn btn-primary">wiki info</a>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
 
