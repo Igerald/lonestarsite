@@ -26,7 +26,6 @@ body {
 }
 
 .btn-group-vertical {
-    display: inline-flex;
     text-align: center;
 }
 
